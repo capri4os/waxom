@@ -39,10 +39,6 @@ section {
     font-size: 20px;
 }
 
-.product-img {
-    
-}
-
 .about {
     color: #333;
     display: flex;
@@ -60,8 +56,7 @@ section {
 .about-text {
     font-size: 16px;
     line-height: 24px;
-    padding-bottom: 10px;
-    padding-right: 70px;
+    padding: 0 70px 10px 0;
 }
 
 .benefits {
@@ -95,10 +90,6 @@ section {
     padding-bottom: 33px;
 }
 
-.screenshots {
-
-}
-
 .screenshots-title {
     color: #445161;
     font-size: 30px;
@@ -125,8 +116,9 @@ section {
     padding-bottom: 27px;
 }
 
-.screenshots-item-block {
+.screenshots-item-block-2 {
     padding-left: 16px;
+    padding-right: 16px;
 }
 
 .screenshots-item-caption {
@@ -144,6 +136,10 @@ section {
     width: 50%;
 }
 
+.reviews {
+    background-color: #ebe8e8;
+}
+
 .reviews-title {
     color: #445161;
     font-size: 30px;
@@ -151,6 +147,16 @@ section {
     line-height: 36px;
     text-align: center;
     padding-bottom: 22px;
+}
+
+.review-items {
+    display: flex;
+    flex-direction: row;
+}
+
+.review-items-block {
+    display: flex;
+    flex-direction: column;
 }
 
 .review-item {
@@ -163,8 +169,7 @@ section {
     font-size: 14px;
     font-style: italic;
     line-height: 18px;
-    padding-bottom: 16px;
-    padding-left: 40px;
+    padding: 0 16px 16px 40px;
 }
 
 .review-item-author {

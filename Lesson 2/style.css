@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -102,7 +103,6 @@ section {
 .screenshot-blocks {
     display: flex;
     flex-direction: row;
-    box-sizing: border-box;
 }
 
 .screenshots-block {

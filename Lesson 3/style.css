@@ -101,15 +101,22 @@ section {
     font-size: 16px;
     line-height: 24px;
     padding-bottom: 33px;
-    /* list-style-image: url(images/plus-icon.png); */
-    margin-left: 25px;
+    margin-left: -10px;
     padding: 0 10px 10px;
+    display: flex;
+    align-items: flex-start;
 }
 
-/* .benefits-list-item::marker {
+.benefits-list-item::before {
+    content: '+';
+    font-size: 2em;
+    line-height: 1;
+    padding: 1px 8px;
+    background-color: #445162;
+    color: #fff;
+    margin-right: 12px;
+}
     
-} */
-
 .screenshots-title {
     color: #445161;
     font-size: 30px;
@@ -282,9 +289,10 @@ section {
     line-height: 18px;
     margin: 22.5px;
     padding: 15px;
+    text-align: center;
     text-decoration: none;
     text-transform: uppercase;
-    width: 85%;
+    width: 75%;
 }
 
 .rates-card-button:hover {
@@ -358,11 +366,13 @@ section {
 .contacts-button:hover {
     background-color: #cc9999;
     color: #fff;
+    cursor: pointer;
 }
 
 .contacts-address {
     display: flex;
     flex-direction: column;
+    font-style: normal;
 }
 
 .address-list {
@@ -378,7 +388,6 @@ section {
 .address-list-item-link {
     color: #fff;
     text-decoration: none;
-    text-transform: none; 
 }
 
 .address-list-item-link:hover {
@@ -386,13 +395,33 @@ section {
 }
 
 .address-social {
+    display: flex;
+    flex-direction: row;
     margin: 50px 0 0 50px;
 }
 
-.address-social-icon {
+.address-social-link {
+    background-color: #fff;
+    border-radius: 50%;
+    color: #445162;
+    height: 40px;
+    margin-right: 5px;
+    text-align: center;
+    width: 40px;
+}
+
+.address-social-link:hover {
+    background-color: #cc9999;
     color: #fff;
-    text-decoration: none;
-    text-transform: none;
+}
+
+.fa-twitter,
+.fa-facebook-f,
+.fa-linkedin-in,
+.fa-google-plus-g,
+.fa-youtube
+ {
+    padding-top: 12px;
 }
 
 .footer {

@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Monserrat;
+    src: url("../fonts/Montserrat/Montserrat-Light.ttf");
+    font-weight: 300;
+    font-style: light;
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url("../fonts/Raleway/static/Raleway-Medium.ttf");
+    font-weight: 400; /*regular*/
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url("../fonts/Raleway/static/Raleway-Bold.ttf");
+    font-weight: 600; /*semibold*/
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url("../fonts/Raleway/static/Raleway-ExtraBold.ttf");
+    font-weight: 800; /*extrabold*/
+    font-style: normal;
+}
+
+.main-screen {
+    background-image: url(../images/main-photo.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    max-height: 1024px;
+}
+
+.main-screen-content {
+    
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.main-screen-header {
+    font-family: Monserrat;
+}
+
+.main-screen-menu {
+
+}
+
+.main-screen-logo {
+
+}
+
+.main-screen-menu-items {
+    list-style-type: none;
+}
+
+.main-screen-menu-item {
+
+}
+
+.main-screen-cart {
+
+}
+
+.main-screen-search {
+
+}
+
+.slider {
+    font-family: Raleway;
+}
+
+.main-screen-h1 {
+
+}
+
+.main-screen-h2 {
+
+}
+
+.main-screen-paragraph {
+
+}
+
+.main-screen-button {
+    text-transform: uppercase;
+}
+
+.slider-nav {
+
+}
+
+.left-arrow {
+
+}
+
+.right-arrow {
+
+}
+
+.slider-nav {
+
+}
+
+.services {
+
+}
+
+.services-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.service-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.service-item-img {
+
+}
+
+.service-item-name {
+
+}
+
+.service-item-description {
+
+}
+
+.slogan {
+
+}
+
+.slogan-h2 {
+
+}
+
+.slogan-paragraph {
+
+}
+
+.slogan-img {
+
+}
+
+.purchase {
+
+}
+
+.purchase-brand {
+
+}
+
+.purchase-h2 {
+
+}
+
+.purchase-description {
+
+}
+
+.purchase-button {
+    text-transform: uppercase;
+}
+
+.projects {
+
+}
+
+.projects-content {
+
+}
+
+.projects-h2 {
+
+}
+
+.projects-description {
+
+}
+
+.projects-submenu {
+
+}
+
+.projects-submenu-list {
+    list-style-type: none;
+}
+
+.projects-submenu-item {
+
+}
+
+.projects-cards {
+
+}
+
+.projects-card {
+
+}
+
+.projects-card-img {
+
+}
+
+.projects-card-name {
+
+}
+
+.projects-card-description {
+
+}
+
+.project-content-button {
+    text-transform: uppercase;
+}
+
+.presentation {
+
+}
+
+.presentation-content {
+
+}
+
+.presentation-video {
+
+}
+
+.presentation-h2 {
+
+}
+
+.presentation-paragraph {
+
+}
+
+.mobile-pros {
+
+}
+
+.mobile-pros-content {
+    background-image: url(../images/mobile-pros-background.png);
+    background-repeat: no-repeat;
+    width: 423px;
+    height: 616px;
+}
+
+.mobile-pros-h2 {
+
+}
+
+.mobile-pros-paragraph {
+
+}
+
+.mobile-pros-list {
+
+}
+
+.mobile-pros-item {
+
+}
+

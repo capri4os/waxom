@@ -1,0 +1,469 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url("../fonts/Montserrat/montserrat-light.woff2") format("woff2");
+    src: url("../fonts/Montserrat/montserrat-light.woff") format("woff");
+    src: url("../fonts/Montserrat/montserrat-light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url("../fonts/Raleway/static/raleway-medium.woff2") format("woff2");
+    src: url("../fonts/Raleway/static/raleway-medium.woff") format("woff");
+    src: url("../fonts/Raleway/static/raleway-medium.ttf") format("truetype");
+    font-weight: 400; /*regular*/
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url("../fonts/Raleway/static/raleway-bold.woff2") format("woff2");
+    src: url("../fonts/Raleway/static/raleway-bold.woff") format("woff");
+    src: url("../fonts/Raleway/static/raleway-bold.ttf") format("truetype");
+    font-weight: 600; /*semibold*/
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url("../fonts/Raleway/static/raleway-extrabold.woff2") format("woff2");
+    src: url("../fonts/Raleway/static/raleway-extrabold.woff") format("woff");
+    src: url("../fonts/Raleway/static/Raleway-ExtraBold.ttf") format("truetype");
+    font-weight: 800; /*extrabold*/
+    font-style: normal;
+}
+
+.main-screen {
+    background-image: url(../images/main-photo.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    max-height: 1024px;
+}
+
+.main-screen-content {
+    
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.main-screen-header {
+    font-family: Monserrat;
+}
+
+.main-screen-menu {
+
+}
+
+.main-screen-logo {
+
+}
+
+.main-screen-menu-items {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-screen-menu-item {
+
+}
+
+.main-screen-cart {
+
+}
+
+.main-screen-search {
+
+}
+
+.slider {
+    font-family: Raleway;
+}
+
+.main-screen-h1 {
+    font-family: Raleway;
+    font-weight: 400;
+    color: #fff;
+    font-size: 36px;
+}
+
+.main-screen-h2 {
+    font-family: Raleway;
+    font-weight: 800;
+    color: #fff;
+    font-size: 52px;
+}
+
+.main-screen-paragraph {
+    font-family: Montserrat;
+    color: #fff;
+}
+
+.main-screen-button {
+    text-transform: uppercase;
+}
+
+.slider-nav {
+
+}
+
+.left-arrow {
+
+}
+
+.right-arrow {
+
+}
+
+.slider-nav {
+
+}
+
+.services {
+
+}
+
+.services-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.service-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.service-item-img {
+
+}
+
+.service-item-name {
+
+}
+
+.service-item-description {
+
+}
+
+.slogan {
+
+}
+
+.slogan-h2 {
+
+}
+
+.slogan-paragraph {
+
+}
+
+.slogan-img {
+
+}
+
+.purchase {
+
+}
+
+.purchase-brand {
+
+}
+
+.purchase-h2 {
+
+}
+
+.purchase-description {
+
+}
+
+.purchase-button {
+    text-transform: uppercase;
+}
+
+.projects {
+
+}
+
+.projects-content {
+
+}
+
+.projects-h2 {
+
+}
+
+.projects-description {
+
+}
+
+.projects-submenu {
+
+}
+
+.projects-submenu-list {
+    list-style-type: none;
+}
+
+.projects-submenu-item {
+
+}
+
+.projects-cards {
+
+}
+
+.projects-card {
+
+}
+
+.projects-card-img {
+
+}
+
+.projects-card-name {
+
+}
+
+.projects-card-description {
+
+}
+
+.project-content-button {
+    text-transform: uppercase;
+}
+
+.presentation {
+
+}
+
+.presentation-content {
+
+}
+
+.presentation-video {
+
+}
+
+.presentation-h2 {
+
+}
+
+.presentation-paragraph {
+
+}
+
+.mobile-pros {
+
+}
+
+.mobile-pros-content {
+    background-image: url(../images/mobile-pros-background.png);
+    background-repeat: no-repeat;
+    width: 423px;
+    height: 616px;
+}
+
+.mobile-pros-h2 {
+
+}
+
+.mobile-pros-paragraph {
+
+}
+
+.mobile-pros-list {
+
+}
+
+.mobile-pros-item {
+
+}
+
+.counters {
+    
+}
+
+.counters-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.counter {
+    display: flex;
+    flex-direction: column;
+}
+
+.counter-img {
+
+}
+
+.counter-value {
+
+}
+
+.counter-name {
+
+}
+
+.posts {
+
+}
+
+.posts-content {
+
+}
+
+.posts-h2 {
+
+}
+
+.posts-paragraph {
+
+}
+
+.posts-cards {
+    display: flex;
+    flex-direction: row;
+}
+
+.posts-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.posts-card-img {
+
+}
+
+.posts-card-caption {
+
+}
+
+.post-card-paragraph {
+
+}
+
+.post-card-link {
+
+}
+
+.partners {
+    background-image: url(../images/partner-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 489px;
+}
+
+.partners-content {
+
+}
+
+.partners-logo {
+
+}
+
+.footer {
+    
+}
+
+.footer-content {
+
+}
+
+.footer-content-block {
+
+}
+
+.footer-logo {
+
+}
+
+.footer-paragraph {
+
+}
+
+.footer-link {
+
+}
+
+.footer-post-previews {
+
+}
+
+.footer-post-preview {
+
+}
+
+.footer-post-preview {
+
+}
+
+.footer-h3 {
+
+}
+
+.footer-post-datetime {
+
+}
+
+.footer-post-preview-paragraph {
+
+}
+
+.footer-img {
+
+}
+
+.copyright {
+
+}
+
+.copyright-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.copyright-content-part-1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.copyright-content-part-2 {
+
+}
+
+.copyright-paragraph {
+
+}
+
+.copyright-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.copyright-list-item {
+
+}
+
+.copyright-list-item:before {
+    content: '|';
+}
+
+.copyright-link {
+
+}
+

@@ -169,22 +169,46 @@
 
 .left-arrow {
     position: absolute;
-    top: -160;
     left: 0px;
+    bottom: 430px; 
 }
 
 .right-arrow {
     position: absolute;
-    top: -160;
     right: 0px;
+    bottom: 430px;
 }
 
-.slider-nav {
-
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 329px;
+    margin-bottom: 42px;
 }
+
+.slider-button {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    cursor: pointer;
+    width: 11px;
+    height: 11px;
+    margin-left: 10px;
+}
+
+.slider-button:hover {
+    background-color: none;
+    border: 2px solid #d3c1ad;
+    width: 15px;
+    height: 15px;
+    background-color: transparent;
+}
+
 
 .services {
-
+    padding-top: 89px;
+    padding-bottom: 116px;
 }
 
 .services-content {
@@ -195,50 +219,115 @@
 .service-item {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .service-item-img {
-
+    width: 44px;
+    height: 44px;
 }
 
 .service-item-name {
-
+    padding-top: 29px;
+    color: #555555;
+    font-family: 'Raleway';
+    font-size: 22px;
+    font-weight: 400;
 }
 
 .service-item-description {
-
+    padding-top: 19px;
+    color: #8c8c8c;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: center;
 }
 
 .slogan {
+    background-color: #fbfaf8;
+    
+}
 
+.slogan-content {
+    text-align: center;
+    width: 65%;
 }
 
 .slogan-h2 {
-
+    padding-top: 83px;
+    color: #555555;
+    font-family: 'Raleway';
+    font-size: 30px;
+    font-weight: 400;
 }
 
 .slogan-paragraph {
+    padding-top: 24px;
+    color: #8c8c8c;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+}
 
+.slogan-images {
+    position: relative;
+    margin-bottom: 15px;
 }
 
 .slogan-img {
+    padding-top: 40px;
+    width: 770px;
+}
 
+.slogan-img-1,
+.slogan-img-3 {
+    position: absolute;
+    /* z-index: -1; */
+    bottom: -15px;
+}
+
+.slogan-img-1 {
+    left: -120px;
+}
+
+.slogan-img-2 {
+    
+}
+
+.slogan-img-3 {
+    right: -120px;
 }
 
 .purchase {
-
-}
-
-.purchase-brand {
-
+    background-color: #f4f5f8;
+    background-image: linear-gradient(to right, #211b19 0%, #4e3427 100%);
 }
 
 .purchase-h2 {
-
+    padding-top: 42px;
+    color: #ffffff;
+    font-family: 'Raleway';
+    font-size: 28px;
+    font-weight: 400;
 }
 
-.purchase-description {
+.purchase-brand {
+    color: #c7b299;
+    font-family: 'Raleway';
+    font-size: 28px;
+    font-weight: 400;
+}
 
+.purchase-description { 
+    padding-top: 8px;
+    padding-bottom: 49px;
+    color: #615855;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 300;
 }
 
 .purchase-button {

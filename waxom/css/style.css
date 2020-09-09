@@ -111,7 +111,7 @@
 
 .slider {
     text-align: center;
-    width: 65%;
+    width: 589px;
 }
 
 .main-screen-h1 {
@@ -145,7 +145,7 @@
     color: #fff;
     font-family: 'Raleway';
     font-size: 14px;
-    font-weight: 800;
+    font-weight: 600;
     line-height: 23px;
     height: 53px;
     padding: 21px 38px;
@@ -208,7 +208,7 @@
 
 .services {
     padding-top: 89px;
-    padding-bottom: 116px;
+    padding-bottom: 80px;
 }
 
 .services-content {
@@ -245,14 +245,34 @@
     text-align: center;
 }
 
+.service-item-description::after {
+    content: '';
+    display: block;
+    border: 2px solid #f1eee9;
+    margin-top: 30px;
+    width: 70px;
+}
+
+.service-item-line {
+    display: block;
+    border: 2px 
+}
+
+.service-item:hover h3 {
+    color: #c7b299;
+    cursor: pointer;
+}
+
 .slogan {
     background-color: #fbfaf8;
-    
+    position: relative;
+    z-index: 0;
+    height: 719px;
 }
 
 .slogan-content {
     text-align: center;
-    width: 65%;
+    width: 757px;
 }
 
 .slogan-h2 {
@@ -275,18 +295,21 @@
 .slogan-images {
     position: relative;
     margin-bottom: 15px;
+    text-align: center;
 }
 
 .slogan-img {
     padding-top: 40px;
     width: 770px;
+    height: 482px;
 }
 
 .slogan-img-1,
 .slogan-img-3 {
     position: absolute;
-    /* z-index: -1; */
-    bottom: -15px;
+    z-index: -1;
+    bottom: 4px;
+    height: 400px;
 }
 
 .slogan-img-1 {
@@ -306,8 +329,23 @@
     background-image: linear-gradient(to right, #211b19 0%, #4e3427 100%);
 }
 
+.purchase-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.purchase-content-block-1 {
+    padding-left: 20px;
+}
+
+.purchase-content-block-2 {
+    padding-right: 20px;
+    align-self: center;
+}
+
 .purchase-h2 {
-    padding-top: 42px;
     color: #ffffff;
     font-family: 'Raleway';
     font-size: 28px;
@@ -323,7 +361,6 @@
 
 .purchase-description { 
     padding-top: 8px;
-    padding-bottom: 49px;
     color: #615855;
     font-family: 'Montserrat';
     font-size: 18px;
@@ -331,37 +368,74 @@
 }
 
 .purchase-button {
+    color: #fff;
+    font-family: 'Raleway';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 23px;
     text-transform: uppercase;
+    box-shadow: inset 0 -3px 0 #736357;
+    border-radius: 3px;
+    background-color: #998675;
+    padding: 19px 29px;
+    text-decoration: none;
 }
 
 .projects {
-
 }
 
 .projects-content {
-
+    text-align: center;
+    width: 757px;
 }
 
 .projects-h2 {
-
+    color: #555555;
+    font-family: 'Raleway';
+    font-size: 30px;
+    font-weight: 400;
+    padding-top: 81px;
 }
 
 .projects-description {
-
+    color: #8c8c8c;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    padding-top: 24px;
 }
 
 .projects-submenu {
-
+    padding: 40px 0;
 }
 
 .projects-submenu-list {
     list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .projects-submenu-item {
-
+    border-radius: 3px;
+    border: 1px solid #ebebeb;
+    background-color: #fff;
+    color: #8c8c8c;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    padding: 10px 19px;
+    margin-left: 10px;
 }
 
+.projects-submenu-item:hover{
+    border: 1px solid #998675b;
+    background-color: #998675;
+    color: #fff;
+    cursor: pointer;
+}
 .projects-cards {
 
 }

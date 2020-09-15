@@ -538,10 +538,68 @@
     padding-left: 30px;
 }
 
+.projects-card:hover .projects-card-svgs {
+    visibility: visible;
+}
+
+.projects-card:hover .project-card-name-base {
+    background-color: #333333;
+    color: #fff;
+}
+
+.projects-card:hover .project-card-name-base:before {
+    border-bottom: 15px solid #333;
+}
+
+.projects-card:hover .projects-card-name {
+    color: #fff;
+}
+
+.projects-card:hover .projects-card-description {
+    color: #c7b299;
+}
+
+/* .projects-card:hover .projects-card-img-overlay {
+    visibility: visible;
+} */
+
+.projects-card-svgs {
+    position: absolute;
+    padding-left: 145px;
+    padding-top: 115px;
+    visibility: hidden;
+}
+
+.projects-card-svg-1,
+.projects-card-svg-2 {
+    fill: #fff;
+    background-color: transparent;
+}   
+
+.projects-card-svg-2 {
+    padding-left: 20px;
+}
+
+.projects-card-svg-1:hover,
+.projects-card-svg-2:hover {
+    fill: #c7b299;
+}
+
 .projects-card-img {
     height: 237px;
     display: block;
+    position: relative;
+    z-index: -1;
 }
+
+/* .projects-card-img-overlay {
+    width: 100%;
+    height: 60%;
+    border: 1px solid red;
+    background-color: rgba (0, 0, 0);
+    position: absolute;
+    box-sizing: border-box;
+} */
 
 .project-card-name-base {
     background-color: #fbfaf8;
@@ -791,6 +849,73 @@
     flex-direction: column;
     margin-right: 30px;
     border: 1px solid #f8f8f8;
+    position: relative;
+    transition: 0.5ms;
+}
+
+.posts-card:hover .postcard-sticker-1 {
+    background-color: #c7b299;
+    color: #fff;
+}
+
+.posts-card:hover .postcard-sticker-2 {
+    background-color: #998675;
+    color: #fff;
+}
+
+.posts-card:hover {
+    background-color: #333333;
+}
+
+.posts-card:hover .posts-card-caption {
+    color: #998675;
+}
+
+.posts-card:hover .post-card-paragraph {
+    color: #fff;
+}
+
+.posts-card:hover .post-card-link {
+    color: #998675;
+}
+
+
+.postcard-sticker { 
+    
+}
+
+.postcard-sticker-1 {
+    background-color: #333;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    width: 15%;
+    padding: 5px 1px;
+    position: absolute;
+    margin: 20px 0 0 20px;
+}
+
+.postcard-sticker-1-p {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    color: #fff;
+    font-size: 24px;
+}
+
+.postcard-sticker-2 {
+    background-color: black;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    width: 15%;
+    padding: 5px 1px;
+    position: absolute;
+    margin: 59px 0 0 20px;
+}
+
+.postcard-sticker-2-p {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    color: #fff;
+    font-size: 12px;
 }
 
 .posts-card-img {
@@ -855,16 +980,21 @@
 
 .partners {
     background-image: url(../images/partner-background.jpg);
+    background-color: #111111;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     height: 489px;
+    
 }
 
 .partners-content {
     width: 95%;
     text-align: center;
     padding: 163px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .partners-logo {
